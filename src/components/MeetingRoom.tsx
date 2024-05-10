@@ -24,7 +24,7 @@ const MeetingRoom = () => {
     const searchParams = useSearchParams();
     const isPersonalRoom = !!searchParams.get('personal');
 
-    const [layout, setLayout] = useState('speaker-left');
+    const [layout, setLayout] = useState('grid');
 
     const [showParticipants, setShowParticipants] = useState(false);
     const { useCallCallingState } = useCallStateHooks();
