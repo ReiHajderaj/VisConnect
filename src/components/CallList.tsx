@@ -68,6 +68,8 @@ const CallList = ({ type }: ({ type: 'ended' | 'upcoming' | 'recordings' })) => 
     }, [toast,type, callRecordings])
 
     const calls = getCalls();
+    console.log(calls);
+    
     const noCallMessage = getNoCallsMessage();
 
     if (isLoding) return <Loader />
