@@ -9,8 +9,12 @@ import { useUser } from '@clerk/nextjs';
 import { Call, useStreamVideoClient } from '@stream-io/video-react-sdk';
 import { useToast } from './ui/use-toast';
 import { Textarea } from './ui/textarea';
-import ReactDatePicker from 'react-datepicker'
+
 import { Input } from './ui/input';
+
+import DatePicker from 'react-date-picker';
+import 'react-date-picker/dist/DatePicker.css';
+import 'react-calendar/dist/Calendar.css';
 
 const MeetingTypeList = () => {
 
@@ -128,16 +132,14 @@ const MeetingTypeList = () => {
                     <div className="flex w-full flex-col gap-2.5">
                         <label className='text-base text-normal leading-[22px] text-sky-2'>
                             Select date and time
-                            <ReactDatePicker
-                                selected={values.dateTime}
+                            <DatePicker
+                                value={values.dateTime}
                                 onChange={(date) => {
-                                    setValues({ ...values, dateTime: date! })
+                                    setValues({ ...values, dateTime: date as Date })
                                 }}
-                                showTimeSelect
-                                timeFormat='HH:mm'
-                                timeIntervals={15}
-                                timeCaption='time'
-                                dateFormat='MMMM d, yyyy h:mm aa'
+                                format="y-MM-dd HH:mm"
+                                clearIcon={null}
+                                calendarIcon={null}
                                 className='w-full rounded bg-dark-3 p-2 focus:outline-none' />
                         </label>
 

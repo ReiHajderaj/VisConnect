@@ -22,7 +22,7 @@ const MeetingRoom = () => {
     const router = useRouter();
 
     const searchParams = useSearchParams();
-    const isPersonalRoom = !!searchParams.get('personal');
+    const isPersonalRoom = searchParams?.get('personal') ?? false;
 
     const [layout, setLayout] = useState('grid');
 
