@@ -10,7 +10,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UniTalk",
+  title: "VoxTrans",
   description: "A video calling app",
   icons: {
     icon: '/icons/logo.svg'
