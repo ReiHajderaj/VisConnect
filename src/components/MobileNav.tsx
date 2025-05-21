@@ -30,7 +30,7 @@ const MobileNav = () => {
                             height={32}
                             alt='Loggo'
                             className='max-sm:size-10' />
-                        <p className='text-[26px] font-extrabold text-white'>UniTalk</p>
+                        <p className='text-[26px] font-extrabold text-white'>VoxTrans</p>
                     </Link>
 
                     <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
