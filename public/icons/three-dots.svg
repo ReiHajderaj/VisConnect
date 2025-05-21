@@ -1,0 +1,10 @@
+<svg width="4" height="18" viewBox="0 0 4 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="inner-shadow" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="0.3" flood-color="#9bbcff" flood-opacity="0.6" />
+    </filter>
+  </defs>
+  <circle cx="2" cy="2" r="2" fill="#C9DDFF" filter="url(#inner-shadow)" />
+  <circle cx="2" cy="9" r="2" fill="#C9DDFF" filter="url(#inner-shadow)" />
+  <circle cx="2" cy="16" r="2" fill="#C9DDFF" filter="url(#inner-shadow)" />
+</svg>

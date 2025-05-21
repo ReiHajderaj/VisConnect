@@ -1,0 +1,10 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Enlarged video player box -->
+  <rect x="3" y="5" width="24" height="16" rx="3" ry="3" stroke="#C9DDFF" stroke-width="2" fill="none"/>
+
+  <!-- Larger play button centered inside the video box -->
+  <polygon points="12,9 18,13 12,17" fill="#C9DDFF" />
+
+  <!-- Progress bar positioned below the video box -->
+  <rect x="3" y="23" width="24" height="2" fill="#C9DDFF" rx="1" ry="1"/>
+</svg>

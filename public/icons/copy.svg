@@ -1,0 +1,6 @@
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Back sheet -->
+  <rect x="7" y="5" width="14" height="14" rx="2" stroke="#C9DDFF" stroke-width="2.5"/>
+  <!-- Front sheet -->
+  <rect x="4" y="2" width="14" height="14" rx="2" stroke="#C9DDFF" stroke-width="2.5" fill="none"/>
+</svg>
